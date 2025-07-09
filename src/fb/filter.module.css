@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    height: 100svh;
+    width: 100%;
+    margin: 0;
+} */
+.filter{
+    height: 580px;
+    width: 250px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.flsearch{
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.categories{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 600;
+    color: #31CF60;
+}
+.radio1{
+    position: relative;
+    top: 35px;
+    left: 73px;
+    height: 18px;
+    width: 40px;
+}
+
+.vegetables{
+    position: relative;
+    top: 31px;
+    left: 70px;
+    font-size: 18px;
+}
+.list{
+    font-size: 20px;
+    position: relative;
+    right: -45px;
+    top: 13px;
+}
+.radio2{
+    position: relative;
+    top: 65px;
+    left: -45px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables2{
+    position: relative;
+    top: 61px;
+    left: -48px;
+    font-size: 18px;
+}
+.radio3{
+    position: relative;
+    top: 95px;
+    left: -128px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables3{
+    position: relative;
+    top: 70px;
+    left: 112px;
+    font-size: 18px;
+}
+.radio4{
+    position: relative;
+    top: 105px;
+    left: 30px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables4{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    font-size: 18px;
+}
+.price{
+        font-size: 22px;
+        position: relative;
+        top: 110px;
+        font-weight: 600;
+        color: #31CF60;
+        left: 10px;
+}
+.check1{
+    height: 18px;
+    width: 40px;
+    position: relative;
+    left: 70px;
+    top: 125px;
+}
+.pr1{
+    font-size: 18px;
+    position: relative;
+    left: 65px;
+    top: 122px;
+}
+.check2{
+    height: 18px;
+    width: 40px;
+    position: relative;
+    left: -44px;
+    top: 157px;
+}
+.pr2{
+    font-size: 18px;
+    position: relative;
+    left: -50px;
+    top: 152px;
+}
+.check3{
+    height: 19px;
+    width: 41px;
+    position: relative;
+    left: 69px;
+    top: 170px;
+}
+.pr3{
+    font-size: 18px;
+    position: relative;
+    left: 64px;
+    top: 166px;
+}
+.check4{
+    height: 19px;
+    width: 41px;
+    position: relative;
+    left: -62px;
+    top: 207px;
+}
+.pr4{
+    font-size: 18px;
+    position: relative;
+    left: 110px;
+    top: 185px;
+}
+.discount{
+    font-size: 22px;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    font-weight: 600;
+    color: #31CF60;
+}
+.radio21{
+    position: relative;
+    top: 215px;
+    left: 73px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables1{
+    position: relative;
+    top: 213px;
+    left: 70px;
+    font-size: 18px;
+}
+.radio22{
+    position: relative;
+    top: 250px;
+    left: -32px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables22{
+    position: relative;
+    top: 247px;
+    left: -34px;
+    font-size: 18px;
+}
+.radio23{
+    position: relative;
+    top: 260px;
+    left: 72px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables23{
+    position: relative;
+    top: 255px;
+    left: 71px;
+    font-size: 18px;
+}
+.radio24{
+    position: relative;
+    top: 295px;
+    left: -49px;
+    height: 18px;
+    width: 40px;
+}
+.vegetables24{
+    position: relative;
+    top: 292px;
+    left: -50px;
+    font-size: 18px;
+}

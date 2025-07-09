@@ -1,0 +1,233 @@
+.FarmerProfilepageHeading{
+  font-size: 32px;font-weight: 700;
+  width: 100%;text-align: center;
+  background-color: #fff;padding: 15px 0;
+  border-bottom: 2px solid green;
+  position: relative;
+  color: #4BAE74;
+}
+.logoutbutton{
+  position: absolute;
+  top: 3px;right: 10px;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: red;color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.FarmerDeatils{
+  min-height: 310px; max-height: fit-content; width: 100%;padding: 10px 10px 10px 10px;
+  display: flex;justify-content: space-around;align-items: center;
+  border-radius: 10px solid black;
+  background-color: #fff;
+}
+.FarmerDeatilsOne{
+  height: 100%;
+  width: 250px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);overflow: hidden;
+}
+.FarmerProfilePic{
+  height: 265px;width: 250px;
+}
+.FarmerProfileName{
+  font-size: 25px;text-align: center;font-weight: 700;color: green;
+}
+.FarmerProfilePic img{
+  height: 100%;width: 100%;
+}
+.FarmerDeatilsTwo{
+  height: 100%;
+  width: calc(100% - 600px);
+  
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border-radius: 20px;
+}
+.FarmerDeatilsTableHead{
+  color: green;font-weight: 800;
+}
+.FarmerDeatilsTableHead::after {
+  content: ":";
+  margin-left: 5px; /* Optional spacing */
+}
+.FarmerDeatilsTableData{
+  padding-left: 10px;
+}
+.FarmerDeatilsThree{
+  height: 290px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);overflow: hidden;
+}
+.FarmerProfileSafty{
+  height: 100%;width: 100%;
+}
+
+
+
+
+
+
+/*  */
+
+.VendibleSection ,.VendSection{
+  height: fit-content;width: 100%;
+  padding: 10px; 
+  border-radius: 10px; background-color: #f3fbf3;
+  background:linear-gradient(to bottom right, #fcfde3, #9cfcc4);
+
+  display: flex;justify-content: start;align-items: center;flex-direction: column;
+  gap: 15px;
+}
+.SaleHeading , .VendHeading{
+  font-size: 30px;color: rgb(33, 174, 127);
+}
+.SaleItemsList{
+  height: fit-content;width: 96%;
+  display: flex;justify-content: start;align-items: center;flex-direction: column;
+  gap: 10px;
+}
+.SaleItemObj{
+  height: 110px;width: 97%;
+  display: flex;justify-content: space-between;align-items: center;
+  padding: 5px 1%;
+  border: 2px solid rgb(33, 174, 127);border-radius: 10px; background-color: #d6fbd6;
+  flex-wrap: wrap;
+}
+.SaleItemImg{
+  height: 90px;width: 150px; 
+}
+.SaleItemImg img{height: 100%;width: 100%;border-radius: 10px;}
+.SaleItemDetilsName{font-size: 25px;width: 150px;}
+.SaleItemDetilsPrize{color: green;font-size: 20px;width: 120px;}
+.SaleItemTotalQuantity{
+  min-width: 70px;
+  /* background-color: blue; */
+  font-size: 25px;color: green;
+}
+.SaleItemTotalCost{
+  min-width: 100px;
+  /* background-color: blue; */
+  font-size: 25px;color: red;
+}
+.SaleItemRemove{
+  font-size: 20px;
+}
+.SaleItemRemove:hover{
+  color: red;
+}
+.ButtonofAddSaleItem{
+    font-size: 25px;font-weight: 700;
+    padding: 10px 50px;
+    border: 2px solid orange;border-radius: 20px;
+    background:linear-gradient(to bottom right, #eaef5d, #4BAE74);
+    cursor: pointer;
+}
+
+
+.VendSection{
+  height: fit-content;width: 100%;
+  padding: 10px; 
+  border-radius: 10px; background-color: #f3fbf3;
+  display: flex;justify-content: start;align-items: center;flex-direction: column;
+  gap: 15px;
+}
+.VendHeading{
+  font-size: 30px;color: rgb(33, 174, 127);
+}
+.pr{position: relative;}
+.soldlogo{
+  position: absolute;
+  right: 0;bottom: 0;
+  height: 90px;width: 150px;
+}
+.soldlogo img{height: 100%;width: 100%;}
+
+
+
+.userDeatils , .ProdectData ,.ProdectData{
+  width: fit-content;
+}
+
+.DeliveryButn{
+  background-color: green;color: white;
+  padding: 10px 15px;
+}
+
+.ProdectData{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+  .FarmerDeatils{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .FarmerDeatilsTwo{
+    min-width: fit-content;
+  }
+  .FarmerDeatilsThree{display: none;}
+}
+
+@media screen and (min-width:1000px) {
+  .SaleItemObj{width: 1000px;}
+}
+
+@media screen and (max-width:700px) {
+.SaleItemsList{
+  display: flex;justify-content: space-around;align-items: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
+.SaleItemObj{
+  height: fit-content;width: 200px;
+  flex-direction: column;gap: 10px;
+}
+.SaleItemDetilsName ,.SaleItemDetilsPrize, .SaleItemTotalCost{
+  text-align: center;
+}
+.ProdectData{
+flex-direction: column;
+text-align: center;
+}
+.userDeatils{
+text-align: center;
+
+}
+}
+
+@media screen and (max-width:700px) {
+td{
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+}
