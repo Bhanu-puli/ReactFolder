@@ -59,6 +59,7 @@ const BecomeAfarmer=()=>{
   navigate("/FarmerOnePage", { state:  "Register"  });
   localStorage.removeItem("userData");
 }
+console.log("Bhanu PUli");
 
   return (
     <div className={styles.main}>
